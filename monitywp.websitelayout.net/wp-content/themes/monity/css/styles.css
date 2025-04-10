@@ -15230,3 +15230,91 @@ body:not(.woocommerce-block-theme-has-button-styles) .wc-block-components-button
         padding: 13px 22px 14px !important
     }
 }
+
+.logo-showcase {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .logo-showcase-container {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .logo-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .logo-item {
+    flex: 1;
+    min-width: 160px;
+    max-width: 160px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .logo-img {
+    max-width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+  }
+  
+
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .logo-item {
+      min-width: 100px;
+      max-width: 140px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logo-row {
+      gap: 15px;
+    }
+    
+    .logo-item {
+      min-width: 80px;
+      max-width: 120px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .logo-row {
+      gap: 10px;
+    }
+    
+    .logo-item {
+      min-width: 60px;
+      max-width: 100px;
+      padding: 5px;
+    }
+  }
+
+
+  [data-id="0160ebf"] .accordion.style3 {
+    width: 100%;
+    max-width: 100%;
+}
+
+[data-id="0160ebf"] .accordion.style3 .card {
+    width: 100%;
+}
+
+[data-id="0160ebf"] .elementor-container.elementor-column-gap-default {
+    padding: 0;
+}
+
+[data-id="0160ebf"] .elementor-column.elementor-col-50 {
+    width: 100%;
+}
+
+[data-id="0160ebf"] .accordion.style3 .accordion-button {
+    width: 100%;
+}
