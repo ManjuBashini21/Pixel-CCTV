@@ -1072,7 +1072,7 @@ header {
     }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 1024px) {
     .navbar-nav {
         top: 67px
     }
@@ -1112,6 +1112,14 @@ header {
 }
 
 @media screen and (width:1024px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+    }
+
+}
+
+@media screen and (width:1280px) {
     .navbar-expand-lg {
         flex-wrap: nowrap !important;
         justify-content: flex-start !important;
