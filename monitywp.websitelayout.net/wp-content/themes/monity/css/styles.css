@@ -5185,6 +5185,7 @@ select:focus {
     color: #2a334e !important;
 }
 
+
 .testimonial-carousel1 .inner-text {
     position: relative;
     margin-top: 40px
@@ -8060,7 +8061,7 @@ a#cancel-comment-reply-link:focus {
     left: 0;
     right: 0;
     margin-left: 20px;
-    content: "\2194";
+    content: "\2190";;
     font-family: 'themify';
     font-size: 21px;
     line-height: 70px;
