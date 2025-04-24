@@ -1126,3 +1126,17 @@ header {
     }
 
 }
+
+@media (width: 1280px) {
+    #menu-item-6025 {
+      display: none !important;
+    }
+}
+
+@media (min-width: 1281px) {
+    #menu-item-6025 {
+      display: none !important;
+    }
+}
+
+    
