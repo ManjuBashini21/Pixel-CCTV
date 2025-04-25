@@ -172,6 +172,7 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 	
 	.social-icons a:hover {
 		background-color: #1158e7;
+		color: white;
 	}
 	
 	.newsletter input {
@@ -393,6 +394,41 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 		padding: 10px;
 	}
 	}
+
+	@media screen and (width:1024px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+    }
+
+}
+
+@media screen and (width:1280px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+    }
+
+}
+
+@media (width: 1280px) {
+    #menu-item-6025 {
+      display: none !important;
+    }
+}
+
+@media (min-width: 1281px) {
+    #menu-item-6025 {
+      display: none !important;
+    }
+    .footer{
+		padding-left: 170px;
+	}
+}
+.contact-info-icons p a{
+        text-decoration: none;
+    }
+
 
 </style>
             
@@ -639,7 +675,7 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
                                         </div>
                                         <!-- end attribute navigation -->
 
-                                        <div id="popupOverlay" class="overlay-container">
+                                        <div id="popupOverlay" class="overlay-container" style="z-index: 12399999;">
                                             <div class="popup-box">
                                                 <h2 style="color: #2a334e"> Form</h2>
                                                 <form class="form-container" id="contact-form-website">
@@ -812,7 +848,7 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
         
    
 
-        <footer class="footer">
+		<footer class="footer">
             <div class="footer-container">
               <!-- Company Info -->
               <div class="footer-section">
@@ -821,11 +857,12 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
                   At Pixel CCTV, we are dedicated to delivering advanced security and automation solutions tailored to protect your home and business. With premium brands and over 10+ years of expertise, we ensure reliable, cutting-edge technology that offers peace of mind and unmatched safety.
                 </p>
                 <div class="social-icons">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-x-twitter"></i></a>
-                  <a href="#"><i class="fab fa-youtube"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/919787858203" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/pixelcctv.automation/"><i class="fab fa-instagram"></i></a>
                 </div>
+                
               </div>
           
               <!-- Newsletter -->
@@ -854,18 +891,18 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
               <!-- Contact -->
               <div class="footer-section">
                 <h2>Contacts</h2>
-                <div class="contact-info-icons">
-                  <i class="fas fa-phone-alt contact-icon-info"></i>
-                  <div>
-                    <p>97878 58203</p>
-                  </div>
+
+                <div class="contact-section-footer">
+                    <div class="contact-info-icons">
+                        <i class="fas fa-phone-alt contact-icon-info"></i>
+                        <p><a href="tel:+919787858203">97878 58203</a></p>
+                    </div>
+                    <div class="contact-info-icons">
+                        <i class="fas fa-envelope contact-icon-info"></i>
+                        <p><a href="mailto:pixelcctvtheni@gmail.com">pixelcctvtheni@gmail.com</a></p>
+                    </div>
                 </div>
-                <div class="contact-info-icons">
-                  <i class="fas fa-envelope contact-icon-info"></i>
-                  <div>
-                    <p>pixelcctvtheni@gmail.com</p>
-                  </div>
-                </div>
+                
               </div>
             </div>
           
