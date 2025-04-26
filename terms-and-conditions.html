@@ -216,13 +216,23 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 	margin-top: 5px;
 	}
 	
-	.footer-bottom {
-	text-align: center;
-	padding-top: 20px;
-	border-top: 1px solid #444;
-	font-size: 16px;
-	margin-top: 20px;
-	}
+    .footer-bottom-container {
+    width: 100%; 
+    margin: 0 auto;
+    border-top: 1px solid #444;
+    background-color: #2a334e;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    width: 100%; 
+    color: white;
+}
+
+
+
 	
 	.highlight a{
 	color: #fbbf24;
@@ -234,7 +244,7 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 	}
 
 	.footer-section.quick-links {
-	flex: 0 0 130px; /* fixed width */
+	flex: 0 0 130px; 
 	}
 	.footer-section.quick-links ul li {
 	margin-bottom: 8px;
@@ -395,7 +405,7 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 	}
 	}
 
-	@media screen and (width:1024px) {
+    @media screen and (width:1024px) {
     .navbar-expand-lg {
         flex-wrap: nowrap !important;
         justify-content: flex-start !important;
@@ -429,6 +439,10 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
         text-decoration: none;
     }
 
+
+.service-img{
+    width: 100%;
+}
 
 </style>
             
@@ -907,10 +921,12 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
             </div>
           
             <!-- Bottom -->
-            <div class="footer-bottom">
-              © 2025 Powered by <span class="highlight"><a href="index.html"> Pixel CCTV</a></span> | Created by <span class="highlight"><a href="https://navipromotions.in/"> Navi Promotions</a></span>
-            </div>
-          </footer>
+		</footer>
+		<div class="footer-bottom-container">
+			<div class="footer-bottom">
+				© 2025 Powered by <span class="highlight"><a href="index.html"> Pixel CCTV</a></span> | Created by <span class="highlight"><a href="https://navipromotions.in/"> Navi Promotions</a></span>
+			</div>
+		</div>
         
     </div>
     <!-- end main-wrapper section -->

@@ -131,13 +131,23 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 	margin-top: 5px;
 	}
 	
-	.footer-bottom {
-	text-align: center;
-	padding-top: 20px;
-	border-top: 1px solid #444;
-	font-size: 16px;
-	margin-top: 20px;
-	}
+    .footer-bottom-container {
+    width: 100%; 
+    margin: 0 auto;
+    border-top: 1px solid #444;
+    background-color: #2a334e;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    width: 100%; 
+    color: white;
+}
+
+
+
 	
 	.highlight a{
 	color: #fbbf24;
@@ -149,7 +159,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 	}
 
 	.footer-section.quick-links {
-	flex: 0 0 130px; /* fixed width */
+	flex: 0 0 130px; 
 	}
 	.footer-section.quick-links ul li {
 	margin-bottom: 8px;
@@ -344,6 +354,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         text-decoration: none;
     }
 
+
+.service-img{
+    width: 100%;
+}
 
 </style>
 
@@ -1078,10 +1092,12 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
             </div>
           
             <!-- Bottom -->
+        </footer>
+        <div class="footer-bottom-container">
             <div class="footer-bottom">
-              © 2025 Powered by <span class="highlight"><a href="index.html"> Pixel CCTV</a></span> | Created by <span class="highlight"><a href="https://navipromotions.in/"> Navi Promotions</a></span>
+                © 2025 Powered by <span class="highlight"><a href="index.html"> Pixel CCTV</a></span> | Created by <span class="highlight"><a href="https://navipromotions.in/"> Navi Promotions</a></span>
             </div>
-          </footer>
+        </div>
         
     </div>
     <!-- end main-wrapper section -->
